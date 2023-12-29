@@ -97,7 +97,7 @@ Once the Dynamic list if populated select a user by number. A File explorer wind
 + Script -> Build Dynamic Menu from EE Roster  
 + The Chosen user Account ID is stored and becomes the linked_id  
 + The Folder Selection creates a variable for path  
-+ Script Loops throught the list of files and creates a JSON metadata form for each  
++ Script Loops through the list of files and creates a JSON metadata form for each  
 ```
 {
   "document_type": {
