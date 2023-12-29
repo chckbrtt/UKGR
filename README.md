@@ -58,7 +58,7 @@ Validate that the module loaded properly by running: `get-module docupper`
 8. Document Type ID - Outlined in Step 1
 
 ## Step 9)
-### Run the Command from Powershell
+### Run the Command from Powershell (with your values, not mine :smile:)
 
 `docupper -apikey '9ricn9ru6lpreo0rn0rk82brct8cr6yl' -companySN 'docdemo' -password 'somepassword' -username 'apiuser' -pod 2 -cid 33231772 -doctypeid 369275328 -doctypedisp EE`
 
