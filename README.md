@@ -58,15 +58,17 @@ The result should look like:
 > [!TIP]
 > docupper: The term 'docupper' is not recognized as a name of a cmdlet, function, script file, or executable program.
 > Check the spelling of the name, or if a path was included, verify that the path is correct and try again.  
+  
 If you receive this error Step 7 needs to be revisited
 ## Step 10)
 ### Using the Script
 If all the parameters are accurate and all the permissions set are valid the script will return a list of your users:  
 ![Screenshot 2023-12-28 200638](https://github.com/chckbrtt/UKGR/assets/117453000/29dc387f-57a4-4a89-a83d-f3a66a778ec7)  
 Once the Dynamic list if populated select a user by number. A File explorer window will appear asking you to select the folder containing the users documents.  
-[!TIP]
->The File Explorer window will not show any files. It will only show folders. It will also have a message to select the folder for EE you picked from the list.    
-The screen will show a summary of the folder and other parameters you provided. The JSON metadata preview will also be shown.  
+> [!TIP]  
+> The File Explorer window will not show any files. It will only show folders. It will also have a message to select the folder for EE you picked from the list.    
+> The screen will show a summary of the folder and other parameters you provided. The JSON metadata preview will also be shown.  
+   
 ![Screenshot 2023-12-28 200919](https://github.com/chckbrtt/UKGR/assets/117453000/8e81c737-239b-40c9-a0a7-878edded59a5)  
 
 ## Step 11)
