@@ -108,16 +108,16 @@ The screen will show a summary of the folder and other parameters you provided. 
   "file_name": "testfile122723.docx"
 }
 ```
-+ API Call -> Method = Post -> URL = Metadata URL (../companies/{{cid}}/ids)
-+ API Call -> Method = Get -> URL = Previous Calls Repsone.Location (../companies/{{cid}}/ids/12345678)
-+ API Call -> Method = Post -> URL = Previous Calls Response._links.content_rw (../ta/fs?ticket=eyJhbGciOiJIUzUx..)
++ API Call -> Method = Post -> URL = Metadata URL (../companies/{{cid}}/ids)  
++ API Call -> Method = Get -> URL = Previous Calls Repsone.Location (../companies/{{cid}}/ids/12345678)  
++ API Call -> Method = Post -> URL = Previous Calls Response._links.content_rw (../ta/fs?ticket=eyJhbGciOiJIUzUx..)  
 
 # In Summary  
 Feed the script API creds, get auth token  
 Use the token to get a roster  
 Select user and user folder containing documents to upload  
 Each file is created in the system as an empty file (metadata only)  
-The metadata creation builds unique file ids and unique access url for R RW 
+The metadata creation builds unique file ids and unique access url for R RW   
 Retrieve the RW url from the newly created metadata and API upload the file matching its already created metadata  
   
     
