@@ -39,6 +39,13 @@ The result should look like:
 
 ## Step 7)
 ### Download and Install the module sourced from this Github Site
+Download the 2 Files in the docupper folder
+Place both files in the same folder (Very Important!)  
+In PowerShell run: `import-module c:\path2\docupper.psd1`   
+Validate that the module loaded properly by running: `get-module docupper`  
+![image](https://github.com/chckbrtt/UKGR/assets/117453000/28513a7b-939d-4ff1-945c-712d0b8bfee1)
+
+
 ## Step 8)
 ### Collect these needed values
 
